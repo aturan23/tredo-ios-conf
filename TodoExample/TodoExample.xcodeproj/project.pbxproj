@@ -10,11 +10,11 @@
 		4FE571A326031D9A00B64C97 /* TodoExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE571A226031D9A00B64C97 /* TodoExampleApp.swift */; };
 		4FE571A726031D9B00B64C97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FE571A626031D9B00B64C97 /* Assets.xcassets */; };
 		4FE571AA26031D9B00B64C97 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FE571A926031D9B00B64C97 /* Preview Assets.xcassets */; };
-		4FE571CC2603452300B64C97 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE571CB2603452300B64C97 /* RootView.swift */; };
-		4FE571D126034BB000B64C97 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE571D026034BB000B64C97 /* LoginView.swift */; };
 		4FE571D626034C1B00B64C97 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE571D526034C1B00B64C97 /* ContentView.swift */; };
-		4FE571DA26034CDF00B64C97 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE571D926034CDF00B64C97 /* ProfileView.swift */; };
-		4FE571DE26034D7B00B64C97 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE571DD26034D7B00B64C97 /* HomeView.swift */; };
+		4FECF3CE26058DC20081F034 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FECF3CD26058DC20081F034 /* HomeView.swift */; };
+		4FECF3D226058DE30081F034 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FECF3D126058DE30081F034 /* LoginView.swift */; };
+		4FECF3D626058DFC0081F034 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FECF3D526058DFC0081F034 /* ProfileView.swift */; };
+		4FECF3D926058E140081F034 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FECF3D826058E140081F034 /* RootView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,11 +23,11 @@
 		4FE571A626031D9B00B64C97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4FE571A926031D9B00B64C97 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4FE571AB26031D9B00B64C97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4FE571CB2603452300B64C97 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
-		4FE571D026034BB000B64C97 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		4FE571D526034C1B00B64C97 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		4FE571D926034CDF00B64C97 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
-		4FE571DD26034D7B00B64C97 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		4FECF3CD26058DC20081F034 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		4FECF3D126058DE30081F034 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		4FECF3D526058DFC0081F034 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		4FECF3D826058E140081F034 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,11 +61,11 @@
 			isa = PBXGroup;
 			children = (
 				4FE571A226031D9A00B64C97 /* TodoExampleApp.swift */,
-				4FE571CB2603452300B64C97 /* RootView.swift */,
-				4FE571D026034BB000B64C97 /* LoginView.swift */,
 				4FE571D526034C1B00B64C97 /* ContentView.swift */,
-				4FE571D926034CDF00B64C97 /* ProfileView.swift */,
-				4FE571DD26034D7B00B64C97 /* HomeView.swift */,
+				4FECF3CD26058DC20081F034 /* HomeView.swift */,
+				4FECF3D126058DE30081F034 /* LoginView.swift */,
+				4FECF3D826058E140081F034 /* RootView.swift */,
+				4FECF3D526058DFC0081F034 /* ProfileView.swift */,
 				4FE571A626031D9B00B64C97 /* Assets.xcassets */,
 				4FE571AB26031D9B00B64C97 /* Info.plist */,
 				4FE571A826031D9B00B64C97 /* Preview Content */,
@@ -150,11 +150,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4FE571D126034BB000B64C97 /* LoginView.swift in Sources */,
-				4FE571CC2603452300B64C97 /* RootView.swift in Sources */,
-				4FE571DA26034CDF00B64C97 /* ProfileView.swift in Sources */,
-				4FE571DE26034D7B00B64C97 /* HomeView.swift in Sources */,
+				4FECF3CE26058DC20081F034 /* HomeView.swift in Sources */,
 				4FE571D626034C1B00B64C97 /* ContentView.swift in Sources */,
+				4FECF3D926058E140081F034 /* RootView.swift in Sources */,
+				4FECF3D626058DFC0081F034 /* ProfileView.swift in Sources */,
+				4FECF3D226058DE30081F034 /* LoginView.swift in Sources */,
 				4FE571A326031D9A00B64C97 /* TodoExampleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
